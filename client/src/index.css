@@ -1,0 +1,61 @@
+.carousel-caption.left-aligned{
+  left: 5%; 
+  right: auto; 
+  text-align: left;
+  bottom: 30px;
+}
+.search{
+  width: 80%;  
+  box-shadow: 0 0 10px 1px #3f3f3f;
+  border-radius: 10px;
+}
+.food-items{
+  box-shadow: 7px 7px 8px 1px #343434;
+  transition: ease 0.3s;
+}
+.food-items:hover{
+  transform: scale(1.03);
+  
+}
+.cart-item:hover{
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #000;
+
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: none;
+  color: red; 
+}
+.menu-container{
+  animation: cyclic-scroll 30s linear infinite;
+}
+.menu-container::-webkit-scrollbar{
+  display: none;
+}
+.menu-container-total{
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.menu-item {
+  flex: none;
+  margin: 0 15px;
+  text-align: center;
+}
+@keyframes cyclic-scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.add:hover{
+background-color: green;
+color:#fff;
+}
